@@ -106,6 +106,6 @@ a:hover .go-home {
         max-width: 620px;
         margin: 0 auto;
         margin-top: 50px;
-        box-shadow: 4px 8px 40px 8px lightgray;
+        box-shadow: 0px 0px 6px 1px lightgray;
     }
 }

@@ -65,10 +65,15 @@
                 data-wow-delay="0.1s"
                 style="border-bottom: 1px solid rgba(255, 255, 255, 0.07)"
             >
-                <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+                <a
+                    href="index.html"
+                    class="navbar-brand ms-4 ms-lg-0"
+                    style="display: flex; align-items: center"
+                >
                     <h1 class="fw-bold text-primary m-0">
                         <span class="text-white">Win Realm</span> Hub
                     </h1>
+                    <img style="width: 90px" src="img/logo.png" alt="" />
                 </a>
                 <button
                     type="button"
@@ -164,7 +169,11 @@
                                 class="position-absolute top-0 end-0 ps-2 pb-2"
                                 src="img/about-2.jpg"
                                 alt=""
-                                style="width: 200px; height: 200px"
+                                style="
+                                    width: 200px;
+                                    height: 200px;
+                                    object-fit: cover;
+                                "
                             />
                         </div>
                     </div>
@@ -179,9 +188,12 @@
                                 Din Partner i Sosialt Casino Norsk Opplevelser
                             </h1>
                             <div
-                                class="border-bottom border-5 border-primary rounded p-4 mb-4"
+                                class="border-bottom border-5 border-primary rounded mb-4"
                             >
-                                <p class="text-dark mb-2">
+                                <p
+                                    class="text-dark mb-2"
+                                    style="color: #787878 !important"
+                                >
                                     Velkommen til den ultimate plattformen for
                                     online sosialt casino i Norge! Her tilbyr vi
                                     spennende spill som kombinerer strategi og
@@ -413,7 +425,7 @@
         <!-- Features End -->
 
         <!-- Service Start -->
-        <div id="#how-to-play" class="container-xxl py-5">
+        <div id="how-to-play" class="container-xxl py-5">
             <div class="container">
                 <div
                     class="text-center mx-auto mb-5 wow fadeInUp"
@@ -440,11 +452,17 @@
                         data-wow-delay="0.1s"
                     >
                         <div class="service-item text-center h-100 p-4 p-xl-5">
-                            <h4 class="mb-3">Trinn 1</h4>
+                            <h4 class="mb-3">Trinn 1: Start spillet</h4>
                             <p class="mb-4">
-                                Start spillet ved å trykke på "Spill
-                                Nå"-knappen. Velg innsatsen din, og gjør deg
-                                klar for eventyret!
+                                Først og fremst, trykk på "Spill Nå"-knappen for
+                                å starte eventyret ditt i Baron Lord of
+                                Saturday. Når du er inne i spillet, velg ønsket
+                                innsats og bli kjent med spillets grensesnitt.
+                                Du kan tilpasse innsatsen din for å tilpasse
+                                spillopplevelsen etter din komfort, og deretter
+                                er du klar til å begynne å spille. Fokuser på å
+                                forstå hvordan de ulike funksjonene fungerer før
+                                du setter i gang for fullt!
                             </p>
                         </div>
                     </div>
@@ -453,11 +471,21 @@
                         data-wow-delay="0.3s"
                     >
                         <div class="service-item text-center h-100 p-4 p-xl-5">
-                            <h4 class="mb-3">Trinn 2</h4>
+                            <h4 class="mb-3">
+                                Trinn 2: Oppdag spesialfunksjoner
+                            </h4>
                             <p class="mb-4">
-                                Utforsk spillets funksjoner. Se etter spesielle
-                                symboler som låser opp bonusrunder og ekstra
-                                gevinster.
+                                Utforsk alle funksjonene som gjør Baron Lord of
+                                Saturday unik! Se etter spesielle symboler, som
+                                Wilds og Scatters, som kan utløse bonusrunder og
+                                ekstra gevinster. Følg med på spillets
+                                progresjon, og prøv å aktivere bonusfunksjonene
+                                ved å lande på de riktige kombinasjonene av
+                                symboler. Når du er klar for det, kan du
+                                utforske gratis spinn og andre spesialrunder for
+                                å maksimere gevinstene dine. Spillet handler
+                                ikke bare om flaks – det er også en strategi å
+                                mestre!
                             </p>
                         </div>
                     </div>
@@ -466,14 +494,29 @@
                         data-wow-delay="0.5s"
                     >
                         <div class="service-item text-center h-100 p-4 p-xl-5">
-                            <h4 class="mb-3">Trinn 3</h4>
+                            <h4 class="mb-3">
+                                Trinn 3: Fullfør eventyret ditt
+                            </h4>
                             <p class="mb-4">
-                                Nyt spillet og samle poeng. Bli en mester i
-                                Baron Lord of Saturday og del opplevelsen med
-                                venner!
+                                Når du spiller Baron Lord of Saturday, er det
+                                viktig å forbli tålmodig og konsentrert. Når du
+                                har fått tak i spillets mekanikker, kan du
+                                begynne å samle poeng og gevinster. For å nå
+                                toppen må du lære hvordan du utnytter
+                                bonusrunder og spesial funksjoner effektivt. Se
+                                hvordan du gjør det bedre for hver runde, og se
+                                om du kan nå de øverste rangene i spillet. Del
+                                opplevelsene dine med venner, og utfordre dem
+                                til å konkurrere med deg. Hvem vet – kanskje du
+                                blir den nye mesteren i Baron Lord of Saturday!
                             </p>
                         </div>
                     </div>
+                </div>
+                <div class="text-center mt-5">
+                    <a href="index.html" class="btn btn-primary btn-lg"
+                        >Spill Nå</a
+                    >
                 </div>
             </div>
         </div>
@@ -524,6 +567,33 @@
                         <a class="btn btn-link" href="privacy-policy.html"
                             >Personvern</a
                         >
+                    </div>
+                    <div
+                        class="col-lg-8 col-md-8 mb-5 mt-5 mb-md-0 text-center p-3"
+                    >
+                        <form action="thanks.html" method="GET">
+                            <div class="form-floating">
+                                <input
+                                    type="email"
+                                    class="form-control"
+                                    id="email"
+                                    placeholder="Your Email"
+                                />
+                                <label for="email">Your Email</label>
+                            </div>
+                            <button
+                                class="btn btn-primary py-2 px-3 me-3"
+                                id="submit"
+                                type="submit"
+                            >
+                                Send Message
+                                <div
+                                    class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2"
+                                >
+                                    <i class="fa fa-arrow-right"></i>
+                                </div>
+                            </button>
+                        </form>
                     </div>
                     <div
                         class="col-lg-12 col-md-12 mb-5 mt-5 mb-md-0 text-left p-3"
