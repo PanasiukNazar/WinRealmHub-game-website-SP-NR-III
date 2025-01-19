@@ -569,34 +569,7 @@
                         >
                     </div>
                     <div
-                        class="col-lg-8 col-md-8 mb-5 mt-5 mb-md-0 text-center p-3"
-                    >
-                        <form action="thanks.html" method="GET">
-                            <div class="form-floating">
-                                <input
-                                    type="email"
-                                    class="form-control"
-                                    id="email"
-                                    placeholder="Your Email"
-                                />
-                                <label for="email">Your Email</label>
-                            </div>
-                            <button
-                                class="btn btn-primary py-2 px-3 me-3"
-                                id="submit"
-                                type="submit"
-                            >
-                                Send Message
-                                <div
-                                    class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2"
-                                >
-                                    <i class="fa fa-arrow-right"></i>
-                                </div>
-                            </button>
-                        </form>
-                    </div>
-                    <div
-                        class="col-lg-12 col-md-12 mb-5 mt-5 mb-md-0 text-left p-3"
+                        class="col-lg-8 col-md-8 mb-5 mt-5 mb-md-0 text-left p-3"
                         style="
                             border: 1px solid gray;
                             display: flex;
@@ -615,6 +588,36 @@
                             personer over 18 år. Ved å bruke plattformen vår,
                             bekrefter du at du oppfyller denne aldersgrensen.
                         </span>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-4 mb-5 mt-5 mb-md-0 text-center p-3"
+                    >
+                        <form action="thanks.html" method="GET">
+                            <h5>ABONNER PÅ VÅRT NYHETSBREV!</h5>
+                            <div class="form-floating">
+                                <input
+                                    type="email"
+                                    class="form-control"
+                                    id="email"
+                                    placeholder="Your Email"
+                                />
+                                <div id="result" style="color: red"></div>
+                            </div>
+                            <button
+                                class="btn btn-primary py-2 px-3 me-3"
+                                id="submit"
+                                type="submit"
+                                style="width: 100%; margin-top: 10px"
+                                onclick="sendForm()"
+                            >
+                                Send Message
+                                <div
+                                    class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2"
+                                >
+                                    <i class="fa fa-arrow-right"></i>
+                                </div>
+                            </button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -681,6 +684,7 @@
         <script src="js/main.js"></script>
         <script src="js/adulthood-popup.js"></script>
         <script src="js/cookiebanner.js"></script>
+        <script src="js/contact-form.js"></script>
 
         <script>
             document

@@ -661,3 +661,8 @@ header h2 {
     width: 100%;
     object-fit: cover;
 }
+
+#email {
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+}
