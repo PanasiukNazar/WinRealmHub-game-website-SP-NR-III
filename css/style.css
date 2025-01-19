@@ -8,7 +8,7 @@
 
 body {
     background: linear-gradient(rgb(0 0 0 / 80%), rgba(0, 0, 0, 1)),
-        url(img/main-bg.jpg);
+        url(/img/main-bg.jpg);
     background-size: cover;
 }
 
