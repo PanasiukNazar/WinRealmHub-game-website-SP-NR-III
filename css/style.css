@@ -465,7 +465,7 @@ body {
     bottom: 0px;
     right: 0;
     width: 100%;
-    background: #fff;
+    background: #000000 !important;
     padding: 15px 25px 22px;
     transition: right 0.3s ease;
     box-shadow: 0 5px 10px rgb(0, 0, 0);
